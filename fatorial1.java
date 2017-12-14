@@ -1,8 +1,6 @@
 package fatorial;
 import java.util.Scanner;
 public class fatorial1 {
-
-   
     public static void main(String[] args)throws Exception 
     {int n,fat=1;
     Scanner LerS= new Scanner(System.in);
@@ -12,7 +10,7 @@ public class fatorial1 {
         fat*=M;
     System.out.printf("%d!=%d",n, fat);
         
-        // TODO code application logic here
+   
     }
     
 }
