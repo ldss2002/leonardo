@@ -1,27 +1,31 @@
-package multiplicaçãorussa;
+package multiplicaÃ§Ã£orussa;
 import java.util.Scanner;
-public class multiplicaçaorussa {
+public class multiplicaÃ§aorussa {
 
-	private static Scanner lerS;
+	public static void main(String[] args) {
+		//Variaveis		
+				int M , m , m1 , M1 , r ;
+				Scanner dados = new Scanner(System.in);
+		//Codigo Principal
+				System.out.print("Qual Ã© o multiplicando? ");
+				m=dados.nextInt();
+				System.out.print("Qual Ã© o multiplicador ?" );
+				M=dados.nextInt();
+		//Mostrar Leitura
+				//System.out.print("O multiplicando Ã©" + m + "\n");
+				//System.out.print("O multiplicador Ã©" + M); 
+		//while
+				while (m>1){
+				m=m/2;
+				System.out.print(m + "\n");
+				  //M=M*2;
+				
+				//System.out.print(M + "\n \n");
+				//if (m/2==0)
+				       //else(r = r+M);
 
-	public static void main(String[] args)throws Exception
-		{int X, X1, Y, Y1, T;
-		lerS = new Scanner(System.in);
-		System.out.print("O multiplicando é:");
-		X=lerS.nextInt();
-		System.out.print(" O multiplicador é:");
-		Y=lerS.nextInt();
-		X1=X; Y1=Y; T=0;
-		while (X1>=1)
-		{if (X1%2!=0)
-			T=T+Y1;
-		X1=(X1/2);
-		Y1=Y1*2;}
-		System.out.printf("%d x %d= %d", X,Y,T);}
-		
-		
-	
-
-	}
-
-
+			
+				
+				}
+			}
+		}
